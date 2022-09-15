@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+article{
+    display: flex;
+}
+section{
+    height: 400px;
+width: 250px;
+margin-left: 100px;
+margin-top: 100px;
+background-color:rgb(218, 237, 204);
+position: relative;
+overflow: hidden;
+/* border-radius: 10px; */
+}
+.badge{
+height: 80px;
+width: 80px;
+position: absolute;
+right: -40px;
+top:-40px;
+transform: rotate(45deg);
+background-color:rgb(58, 114, 15);
+font-family: monospace;
+}
+.badge p{
+color: white;
+margin-top: 60px;
+margin-left: 30px;
+}
+.ribbon{
+    height: 20px;
+    width: 80px;
+    position: absolute;
+    background-color:rgb(58, 114, 15);
+    position: absolute;
+    right: -20px;
+    top:5px;
+    transform: rotate(45deg);
+}
+.ribbon p{
+    color: white;
+    margin-left: 30px;
+    font-family: monospace;
+}
